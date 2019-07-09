@@ -1,0 +1,13 @@
+.tableIndex {
+  font-size: '15px';
+  font-weight: 700;
+}
+
+.tablePadding {
+  width: 120px;
+}
+
+.header {
+  background: darkblue;
+  color: white;
+}

@@ -1,0 +1,28 @@
+body {
+  margin: unset;
+}
+
+.routerWrap {
+  background: black;
+  height: 40px;
+  font-size: 20px;
+  position: relative;
+}
+
+.linkWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.linkStyle {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.listWrap {
+  padding-right: 10px;
+  text-decoration: none;
+}

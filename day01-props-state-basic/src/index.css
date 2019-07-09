@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  position: relative;
+}
+
+.props-wrap {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #3276e3;
+  /* height: 200px; */
+  width: 200px;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.state-wrap {
+  padding-top: 150px;
+}
