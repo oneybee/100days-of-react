@@ -25,7 +25,7 @@ const Table = props => (
           </td>
           <td className="tablePadding">
             <button>Edit</button>
-            <button>Delete</button>
+            <button onClick={() => props.deleteMemo(memo.id)}>Delete</button>
           </td>
         </div>
       ))

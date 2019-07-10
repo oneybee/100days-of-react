@@ -14,6 +14,10 @@ const Index = props => {
     setMemos([...memos, memo])
   }
 
+  const deleteMemo = id => {
+    setMemos(memos.filter(memo => memo.id !== id))
+  }
+
   return (
     <div>
       <h1>CRUD app with React Hooks</h1>
@@ -25,6 +29,7 @@ const Index = props => {
       <h2 className="header">Memo table</h2>
       <Table
         memo={memos}
+        deleteMemo={deleteMemo}
         //  category={category} content={content}
       />
     </div>
