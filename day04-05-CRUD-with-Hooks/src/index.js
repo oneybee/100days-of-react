@@ -18,6 +18,8 @@ const Index = props => {
     setMemos(memos.filter(memo => memo.id !== id))
   }
 
+  const [editing, setEditing] = useState(false)
+
   return (
     <div>
       <h1>CRUD app with React Hooks</h1>
