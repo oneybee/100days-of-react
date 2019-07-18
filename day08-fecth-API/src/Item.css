@@ -1,0 +1,11 @@
+.image-section {
+  width: 300px;
+  height: 300px;
+  background: blue;
+}
+
+.price {
+  width: 300px;
+  text-align: center;
+  font-size: 20px;
+}
